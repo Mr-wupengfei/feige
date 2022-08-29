@@ -1,0 +1,19 @@
+{
+    "name": "bdy/pay",
+    "description": "this is test.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "吴鹏飞",
+            "email": "871927431@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bdy\\Pay\\": "src/"
+        }
+    }
+}
