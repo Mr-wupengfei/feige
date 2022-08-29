@@ -15,5 +15,15 @@
         "psr-4": {
             "Bdy\\Pay\\": "src/"
         }
+    },
+	"extra": {
+        "laravel": {
+            "providers": [
+                "Bdy\\Pay\\PayServiceProvider"
+            ],
+            "aliases": {
+                "Pay": "Bdy\\Pay\\Pay"
+            }
+        }
     }
 }
